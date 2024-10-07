@@ -20,5 +20,6 @@ public class VariabilesAndComments {
         float upperLimitOfFloatDataType = 3.4028235E38f;
         double lowerLimitOfDoubleDataType = -1.7976931348623157E308;
         double upperLimitOfDoubleDataType = 1.7976931348623157E308;
+        System.out.println();
     }
 }
