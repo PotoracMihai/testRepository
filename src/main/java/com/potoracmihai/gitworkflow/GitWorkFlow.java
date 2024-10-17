@@ -17,6 +17,12 @@ public class GitWorkFlow {
         String step13 = "Perform git stash pop - to apply the changes from the stash";
         String step14 = "Perform git push origin master - to push the changes to the remote repository";
         String step15 = "Perform git stash drop - to remove the changes from the stash";
+        String step16 = "Perform git checkout -b new-branch - to create a new branch";
+        String step17 = "Perform git push origin new-branch - to push the new branch to the remote repository";
+        String step18 = "Perform git add . - to stage all the changes";
+        String step19 = "Perform git commit -m \"Commit message\" - to commit the changes";
+        String step20 = "Perform git push origin new-branch - to push the changes to the remote repository";
+
 
         System.out.println(step1);
         System.out.println(step2);
@@ -33,6 +39,12 @@ public class GitWorkFlow {
         System.out.println(step13);
         System.out.println(step14);
         System.out.println(step15);
+        System.out.println(step16);
+        System.out.println(step17);
+        System.out.println(step18);
+        System.out.println(step19);
+        System.out.println(step20);
+
 
     }
 }
